@@ -137,7 +137,7 @@ describe "#display_board in 'lib/display_board.rb" do
     end
 
     it 'prints an entire board full of Xs' do
-      
+
       # Should you want to write your own test for this situation,
       # read the following code and comments.
 
@@ -173,13 +173,15 @@ describe "#display_board in 'lib/display_board.rb" do
        expect(rows[4]).to eq(" X | X | X ")
 
       # *** Comment the line below by adding a # at the line start ***
-      expect(true).to be(true)
+      #expect(true).to be(true)
     end
 
     it 'prints an entire board full of Os' do
       # Can you copy the syntax of the tests above to write a test for a board
       # entirely filled with Os?
 
+      board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+      
       # Hint: You should be able to copy the code in the previous it example
       # and make a few simple edits to convert the previous example to this
       # example's situation.
